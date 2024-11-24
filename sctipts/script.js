@@ -1,5 +1,5 @@
 
-new Vue({
+  new Vue({
   el: "#app",
   data() {
     return {
@@ -9,7 +9,7 @@ new Vue({
       duration: null,
       currentTime: null,
       isTimerPlaying: false,
-      tracks: [
+        tracks: [
         {
           name: "Mekanın Sahibi",
           artist: "Norm Ender",
@@ -39,7 +39,6 @@ new Vue({
       transitionName: null
     };
   },
-     
   methods: {
     play() {
       if (this.audio.paused) {

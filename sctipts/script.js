@@ -11,27 +11,28 @@
       isTimerPlaying: false,
         tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "img/1.jpg",
-          source: "mp3/1.mp3",
          
+      name: "Mekanın Sahibi",
+          artist: "Norm Ender",
+          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
+          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+          
         },
         {
           name: "Everybody Knows",
           artist: "Leonard Cohen",
-          cover: "img/2.jpg",
-          source: "mp3/2.mp3",
-       
+          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
+          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
+        
         },
         {
           name: "Extreme Ways",
           artist: "Moby",
-          cover: "img/3.jpg",
-          source: "mp3/3.mp3",
-      
-        
+          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
+          source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
+       
         }
+
         
       ],
       currentTrack: null,
